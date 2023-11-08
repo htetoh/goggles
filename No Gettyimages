@@ -1,0 +1,15 @@
+! name: No Gettyimages
+
+! description: Rerank results to remove pages hosted on Gettyimages.
+
+! public: true
+
+! author: htetoh
+
+! avatar: #ffffff
+
+
+$discard,site=gettyimages.com
+$discard,site=gettyimages.com.au
+$discard,site=gettyimages.co.uk
+$discard,site=gettyimages.fr
