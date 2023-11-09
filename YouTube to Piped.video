@@ -1,0 +1,9 @@
+! name: YouTube to Piped.video
+! description: replace youtube link with piped link
+! public: true
+! author: htetoh
+! avatar: #ca0800
+
+piped.video$boost=10
+$discard,site=youtube.com
+$discard,site=youtu.be
